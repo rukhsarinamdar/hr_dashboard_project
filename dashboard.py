@@ -7,10 +7,10 @@ st.set_page_config(page_title="HR Dashboard", layout="wide")
 
 # Database connection
 conn = psycopg2.connect(
-    dbname='postgres',
-    user='postgres',
-    password='199211',  # ✅ Corrected password format
-    host='localhost',
+    dbname='hr_dashboard_db',
+    user='hr_dashboard_db_user',
+    password='rxSZBLUKZPUhuMkiwdNLjCrsQ0z83YTY',
+    host='dpg-d1h8i0idbo4c73a268u0-a.oregon-postgres.render.com',
     port='5432'
 )
 
